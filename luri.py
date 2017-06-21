@@ -37,9 +37,6 @@ class LURI():
       uri += '#' + self.fragment
     return uri
 
-  def equal(uri1, uri2):
-    return True
-
   def append_query_var(self, key, val):
     if key:
       parsed_qs = self.parse_qs()
